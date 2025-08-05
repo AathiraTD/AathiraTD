@@ -4,8 +4,6 @@
 
 *Full‑stack & Data Engineer · Turning ideas into products*
 
-[![Followers](https://img.shields.io/github/followers/AathiraTD?style=social)](https://github.com/AathiraTD?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=AathiraTD\&color=lightgrey)](https://github.com/AathiraTD)
 
 </div>
 
