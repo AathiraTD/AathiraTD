@@ -1,85 +1,65 @@
 <div align="center">
 
-# **Aathira • Builder. Learner. Maker.**
+# **Aathira T D**
 
-<img src="https://img.shields.io/github/followers/AathiraTD?label=Followers&style=for-the-badge" /> <img src="https://komarev.com/ghpvc/?username=AathiraTD&style=for-the-badge" />
+*Full‑stack & Data Engineer · Turning ideas into products*
 
-> **Bridging ideas → shipped products with code, data & relentless curiosity.**
+[![Followers](https://img.shields.io/github/followers/AathiraTD?style=social)](https://github.com/AathiraTD?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=AathiraTD\&color=lightgrey)](https://github.com/AathiraTD)
 
 </div>
 
 ---
 
-## 📜 TL;DR
+## ✨ At‑a‑Glance
 
-| Current Focus                                            | Tech Arsenal                                                         | Looking For                                            |
-| -------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------ |
-| 🚀 Full‑stack app patterns & cloud‑native data pipelines | TypeScript · React19 · Python · Airflow · Snowflake · Supabase · AWS | 🌍 Open‑source collabs · Mentorship · Cool side quests |
-
----
-
-## 🧭 Signature Work
-
-|          | Name & Demo                                                                                                                          | One‑liner                                            | Core Stack                                |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------- |
-| ✨ **1**  | **[Goal‑Tracker](https://github.com/AathiraTD/Goal-Tracker)**<br/><sub>Next-gen habit tracker (monorepo)</sub>                       | Real‑time **goals → insights** in a single Turborepo | Next.js 15 · Supabase · tRPC · Tailwind 4 |
-| ⚡ **2**  | **[Realtime Market Data Pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)**<br/><sub>Sub‑hour FTSE/FX feed</sub> | 18k rows/run → live Snowflake → Superset             | Airflow · Snowflake · Superset · Docker   |
-| 🤟 **3** | **[SignGenie](https://github.com/AathiraTD/SignGenie)**<br/><sub>Sign → speech in <300 ms</sub>                                      | YOLO hands + Transformer sequence ≈ magic            | PyTorch · FastAPI · MLflow · ECS          |
-
-<details>
-<summary>📂 Deep‑dive Highlights</summary>
-
-| Project         | Hardest Problem                           | Clever Fix                                                      |
-| --------------- | ----------------------------------------- | --------------------------------------------------------------- |
-| Goal‑Tracker    | **Monorepo drift** with multiple packages | Turbo + pnpm *workspaces:* every PR runs selective builds/tests |
-| Market Pipeline | **Snowflake bill spikes** during peak     | Auto‑suspend warehouse (60 s) + SLA‑aware Airflow sensors       |
-| SignGenie       | **Latency** crossing 500 ms               | Quantised ONNX + CUDA graph capture → 280 ms end‑to‑end         |
-
-</details>
-
----
-
-## 🛠 Skill Matrix
-
-| Area               | Tools                                  | Recent ⚙️                                    |
-| ------------------ | -------------------------------------- | -------------------------------------------- |
-| **Frontend**       | React • Next.js • Tailwind • Storybook | React Server Components, Partial Hydration   |
-| **Backend**        | FastAPI • tRPC • Node • Supabase       | TRPC‑on‑Edge Runtimes                        |
-| **Data Eng**       | Airflow • dbt • Snowflake              | Dynamic task mapping, cost‑aware warehousing |
-| **ML & CV**        | PyTorch • YOLO • MLflow                | ONNX runtime, NVIDIA TensorRT                |
-| **Dev Experience** | Turborepo • pnpm • GitHub Actions      | Monorepo selective CI                        |
-
----
-
-## 📈 Journey Snapshot
-
-```mermaid
-gantt
-dateFormat  YYYY-MM
-title Learning & Shipping Timeline
-section 2023
-  React Foundations          :done, 2023-01, 2m
-  Python Data Pipelines       :done, 2023-03, 3m
-section 2024
-  Goal‑Tracker MVP            :done, 2024-01, 4m
-  Superset Dashboards         :done, 2024-05, 1m
-section 2025
-  Market Data Pipeline        :done, 2025-02, 5m
-  SignGenie R&D               :active, 2025-09, 6m
+```text
+💻  Code:   React · TypeScript · Python · SQL
+📊  Data:   Airflow · dbt · Snowflake · Supabase
+🤖  ML:     PyTorch · YOLO · MLflow
+🚀  Cloud:  AWS ECS · Docker · GitHub Actions
 ```
 
+*Building modern apps & pipelines with a **user‑first** mindset and a bias for **shipping**.*
+
 ---
 
-## 🤝 Let’s Connect
+## 🔍 Featured Repos
 
-| Platform | Link                          |
-| -------- | ----------------------------- |
-| LinkedIn | <!-- TODO: add URL -->        |
-| Twitter  | <!-- TODO: @handle -->        |
-| Email    | <!-- TODO: your@email.com --> |
+|  ⭐  | Project                                                                                | What it does                              | Key Tech                       |
+| :-: | -------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------ |
+|  1  | **[Goal‑Tracker](https://github.com/AathiraTD/Goal-Tracker)**                          | Habits & goals, real‑time sync, analytics | Next.js 15 · Supabase · tRPC   |
+|  2  | **[Market Data Pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)** | <45 min FTSE/FX feed, live dashboards     | Airflow · Snowflake · Superset |
+|  3  | **[SignGenie](https://github.com/AathiraTD/SignGenie)**                                | Sign → text → speech in <300 ms           | YOLO · FastAPI · ECS           |
 
-> *“The best way to predict the future is to invent it.” — Alan Kay*
+---
 
-<div align="center">
-  <sub>⭐ Feel free to star projects, open issues, or just say hi!</sub>
-</div>
+## 🛠️ Core Skills
+
+* **Frontend:** React 19, Next.js App Router, Tailwind CSS
+* **Backend:** FastAPI, tRPC, Node, Auth (Supabase / Clerk)
+* **Data Engineering:** Apache Airflow, dbt, Snowflake, Postgres
+* **MLOps:** PyTorch, ONNX, MLflow, NVIDIA TensorRT
+* **Dev Ex:** Turborepo, pnpm, GitHub Actions CI/CD
+
+---
+
+## 📈 Current Focus
+
+* Finishing **SignGenie** MVP (multilingual sign recognition)
+* Exploring **edge‑ready tRPC** & React Server Components
+* Deep‑dive into **cost‑aware Snowflake** patterns
+
+---
+
+## 🤝 Connect
+
+* **LinkedIn:** *\[add link]*
+* **Twitter:**  *@handle*
+* **Email:**    *[you@example.com](mailto:you@example.com)*
+
+> *“Code is poetry — ship often, learn faster.”*
+
+---
+
+<p align="center"><sub>⭐ Stars & PRs are welcome. Let’s build together!</sub></p>
