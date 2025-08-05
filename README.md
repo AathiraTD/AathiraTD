@@ -1,79 +1,85 @@
-# Hi there, I'm Aathira! 👋
+<div align="center">
 
-Welcome to my GitHub profile. I’m passionate about building impactful, user-centric applications and contributing to open-source projects. Here you’ll find a showcase of my work, with a focus on technical depth, modern tooling, and continuous learning.
+# **Aathira • Builder. Learner. Maker.**
 
----
+<img src="https://img.shields.io/github/followers/AathiraTD?label=Followers&style=for-the-badge" /> <img src="https://komarev.com/ghpvc/?username=AathiraTD&style=for-the-badge" />
 
-## 🚀 Featured Projects
+> **Bridging ideas → shipped products with code, data & relentless curiosity.**
 
-### [Goal-Tracker](https://github.com/AathiraTD/Goal-Tracker)
-**A full-stack, open-source daily goal & habit tracker built with Next.js and Supabase.**
-
-**Technical Aspects & Tooling:**  
-- **Frontend:** Next.js 15 App Router, React 19, Tailwind CSS 4  
-- **Backend & Database:** Supabase (Postgres, Auth), tRPC for type-safe APIs, Zod for schema validation  
-- **Tooling:** Turborepo for monorepo management, pnpm workspaces, Storybook 8 for UI components, Playwright and Vitest for testing  
-- **Features:** Real-time goal management, tomorrow planner, analytics dashboard, secure authentication, responsive & accessible UI
-
-**Key Learnings:**  
-- Architected a scalable, type-safe, and maintainable full-stack application
-- Mastered monorepo workflows with advanced tooling
-- Enhanced developer experience with automated testing and Storybook-driven UI development
-- Improved cloud integration and user authentication strategies
+</div>
 
 ---
 
-### [realtime-market-data-pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)
-**Sub-hour insight for FTSE equities & FX rates – real-time data pipeline with Airflow, Snowflake, and Superset.**
+## 📜 TL;DR
 
-**Technical Aspects & Tooling:**  
-- **Data Orchestration:** Apache Airflow for flexible, reliable DAG-based scheduling  
-- **Data Warehouse:** Snowflake for scalable, cost-efficient transformation and storage  
-- **Visualization:** Apache Superset for live dashboards and instant data visibility  
-- **Alerting & Monitoring:** Slack webhooks for proactive notifications  
-- **Containerization:** Docker & Docker Compose for reproducible local development and deployment
-
-**Key Learnings:**  
-- Built robust, modular pipelines ingesting and transforming large volumes of live financial data  
-- Achieved low latency and cost efficiency through orchestration and auto-scaling  
-- Automated data quality checks and incident alerts  
-- Designed for extensibility (new markets/data sources) and reproducibility using infra-as-code
+| Current Focus                                            | Tech Arsenal                                                         | Looking For                                            |
+| -------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------ |
+| 🚀 Full‑stack app patterns & cloud‑native data pipelines | TypeScript · React19 · Python · Airflow · Snowflake · Supabase · AWS | 🌍 Open‑source collabs · Mentorship · Cool side quests |
 
 ---
 
-### [SignGenie](https://github.com/AathiraTD/SignGenie)
-**Real-time sign language recognition using deep learning and MLOps.**
+## 🧭 Signature Work
 
-**Technical Aspects & Tooling:**  
-- **Computer Vision:** YOLO-based hand detection, OpenCV preprocessing  
-- **Sequence Modeling:** LSTM/Transformer networks for gesture-to-text translation  
-- **API:** FastAPI microservice for low-latency inference  
-- **Experiment Tracking:** MLflow for experiment management, model registry, and reproducibility  
-- **Deployment:** Dockerized, CI/CD via GitHub Actions, and scalable serving on AWS ECS
+|          | Name & Demo                                                                                                                          | One‑liner                                            | Core Stack                                |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------- |
+| ✨ **1**  | **[Goal‑Tracker](https://github.com/AathiraTD/Goal-Tracker)**<br/><sub>Next-gen habit tracker (monorepo)</sub>                       | Real‑time **goals → insights** in a single Turborepo | Next.js 15 · Supabase · tRPC · Tailwind 4 |
+| ⚡ **2**  | **[Realtime Market Data Pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)**<br/><sub>Sub‑hour FTSE/FX feed</sub> | 18k rows/run → live Snowflake → Superset             | Airflow · Snowflake · Superset · Docker   |
+| 🤟 **3** | **[SignGenie](https://github.com/AathiraTD/SignGenie)**<br/><sub>Sign → speech in <300 ms</sub>                                      | YOLO hands + Transformer sequence ≈ magic            | PyTorch · FastAPI · MLflow · ECS          |
 
-**Key Learnings:**  
-- Delivered sub-300ms inference for real-time sign-to-text and text-to-speech  
-- Built a modular, production-grade ML pipeline with robust deployment and monitoring  
-- Automated ML experiment tracking and containerized deployment  
-- Developed scalable, API-first ML solutions with cloud-native infrastructure
+<details>
+<summary>📂 Deep‑dive Highlights</summary>
 
----
+| Project         | Hardest Problem                           | Clever Fix                                                      |
+| --------------- | ----------------------------------------- | --------------------------------------------------------------- |
+| Goal‑Tracker    | **Monorepo drift** with multiple packages | Turbo + pnpm *workspaces:* every PR runs selective builds/tests |
+| Market Pipeline | **Snowflake bill spikes** during peak     | Auto‑suspend warehouse (60 s) + SLA‑aware Airflow sensors       |
+| SignGenie       | **Latency** crossing 500 ms               | Quantised ONNX + CUDA graph capture → 280 ms end‑to‑end         |
 
-## 👩‍💻 About Me
-
-- 💡 I love building modern web apps and data-driven services with React, TypeScript, Python, and cloud platforms.
-- 🌱 Currently exploring deeper into full-stack development, data engineering, and cloud-native architectures.
-- 🗂️ I enjoy writing clean, maintainable code and am always learning new technologies.
-- 🤝 Open to collaboration and contributions!
+</details>
 
 ---
 
-## 📫 Let’s Connect!
+## 🛠 Skill Matrix
 
-- [LinkedIn](#) <!-- Add your LinkedIn URL -->
-- [Twitter](#)  <!-- Add your Twitter handle -->
-- Email: <!-- Add your email if you want -->
+| Area               | Tools                                  | Recent ⚙️                                    |
+| ------------------ | -------------------------------------- | -------------------------------------------- |
+| **Frontend**       | React • Next.js • Tailwind • Storybook | React Server Components, Partial Hydration   |
+| **Backend**        | FastAPI • tRPC • Node • Supabase       | TRPC‑on‑Edge Runtimes                        |
+| **Data Eng**       | Airflow • dbt • Snowflake              | Dynamic task mapping, cost‑aware warehousing |
+| **ML & CV**        | PyTorch • YOLO • MLflow                | ONNX runtime, NVIDIA TensorRT                |
+| **Dev Experience** | Turborepo • pnpm • GitHub Actions      | Monorepo selective CI                        |
 
 ---
 
-_Thanks for stopping by! Check out my featured projects above and feel free to connect or collaborate!_
+## 📈 Journey Snapshot
+
+```mermaid
+gantt
+dateFormat  YYYY-MM
+title Learning & Shipping Timeline
+section 2023
+  React Foundations          :done, 2023-01, 2m
+  Python Data Pipelines       :done, 2023-03, 3m
+section 2024
+  Goal‑Tracker MVP            :done, 2024-01, 4m
+  Superset Dashboards         :done, 2024-05, 1m
+section 2025
+  Market Data Pipeline        :done, 2025-02, 5m
+  SignGenie R&D               :active, 2025-09, 6m
+```
+
+---
+
+## 🤝 Let’s Connect
+
+| Platform | Link                          |
+| -------- | ----------------------------- |
+| LinkedIn | <!-- TODO: add URL -->        |
+| Twitter  | <!-- TODO: @handle -->        |
+| Email    | <!-- TODO: your@email.com --> |
+
+> *“The best way to predict the future is to invent it.” — Alan Kay*
+
+<div align="center">
+  <sub>⭐ Feel free to star projects, open issues, or just say hi!</sub>
+</div>
