@@ -1,65 +1,59 @@
-# Hi there, I'm Aathira! 👋
-
-Welcome to my GitHub profile. I’m passionate about building impactful, user-centric applications and contributing to open-source projects. Here, you’ll find a showcase of my work, most notably:
+# 🚀 Featured Projects
 
 ---
 
-## 🚀 Featured Projects
-
 ### [Goal-Tracker](https://github.com/AathiraTD/Goal-Tracker)
-**Build consistency, one day at a time – an open-source daily goal & habit tracker built with Next.js App Router and Supabase.**
+**A full-stack, open-source daily goal & habit tracker built with Next.js and Supabase.**
 
-- **Daily Goal Management** — add, edit, or remove goals and mark them complete as you work through the day.
-- **Progress Metrics** — today’s progress, overall completion rate, and current streak at-a-glance.
-- **Tomorrow Planner** — queue up tomorrow’s goals so you start every day with a clear plan.
-- **Analytics Dashboard** — weekly, monthly, and category analytics.
-- **Authentication & Profiles** — secure login with email/password & OAuth, powered by Supabase Auth.
-- **Responsive & Accessible UI** — built with Tailwind CSS and a reusable React component kit.
+**Technical Highlights:**  
+- **Frontend:** Next.js 15 App Router, React 19, Tailwind CSS 4  
+- **Backend & DB:** Supabase (auth, Postgres), tRPC for type-safe API, Zod validation  
+- **Tooling:** Turborepo, pnpm, Storybook 8, Playwright, Vitest  
+- **Features:** Real-time goal management, analytics dashboards, authentication, responsive and accessible UI
+
+**Learnings:**  
+- Built a scalable, modern React app with advanced routing and SSR.
+- Integrated end-to-end type safety and validation across the stack.
+- Implemented modular UI with Storybook and robust e2e testing via Playwright.
+- Gained experience with cloud Postgres, CI/CD, and monorepo tooling.
 
 ---
 
 ### [realtime-market-data-pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)
-*A 45-minute refresh cycle for live FTSE equities and FX rates.*
+**Sub-hour insight for FTSE equities & FX rates – real-time data pipeline with Airflow, Snowflake, and Superset.**
 
-- **Live data feed**: Pulls UK stock (FTSE) and major currency prices every hour.
-- **Fast transform**: Cleans and reshapes raw ticks in Snowflake rapidly.
-- **Instant visibility**: Updates Superset dashboards automatically—no manual refresh.
-- **Heads-up alerts**: Sends Slack pings if jobs are late or data looks off.
-- **Zero waste**: Auto-scales Snowflake compute only when needed to minimize costs.
+**Technical Highlights:**  
+- **Orchestration:** Apache Airflow (DAGs for data ingestion, transformation, alerting)  
+- **Data Warehouse:** Snowflake (fast transformation, auto-suspend for cost savings)  
+- **Visualization:** Apache Superset (automatic dashboard updates)  
+- **Alerting:** Slack webhooks for job/data failures  
+- **Containerization:** Docker & Docker Compose for local development and deployment
 
-> Market APIs → Airflow (hourly DAGs) → Snowflake (raw → models) → Superset dashboards  
->                                                         ↳ Slack alerts (failures, anomalies)
+**Learnings:**  
+- Built a robust, modular data pipeline ingesting and transforming 100k+ rows daily.
+- Optimized for low-latency, low-cost operation via auto-scaling and efficient scheduling.
+- Automated data QC and incident notification, reducing stale-data risk.
+- Designed for extensibility (new markets, cloud deployment, cost analytics) and reproducibility (pre-commit hooks, infra-as-code).
 
 ---
 
 ### [SignGenie](https://github.com/AathiraTD/SignGenie)
-**Real-Time Sign Language Recognition**
+**Real-time sign language recognition using deep learning and MLOps.**
 
-- **Low latency**: Translates sign language into text and speech in under 300 ms.
-- **Real-time hand detection**: Uses YOLO-based models for fast, accurate gesture recognition.
-- **Sequence classification**: Deep learning models map detected keypoints into sign vocabulary.
-- **Speech synthesis**: Converts recognized text to spoken audio.
-- **REST API**: FastAPI microservice for easy integration.
-- **Experiment tracking & CI/CD**: MLflow for reproducibility; GitHub Actions automates testing/deployment.
-- **Containerized and scalable**: Dockerized and deployed via AWS ECS for robust, scalable inference.
+**Technical Highlights:**  
+- **Detection & Vision:** YOLO-based hand/gesture detector, OpenCV for preprocessing  
+- **Sequence Modeling:** LSTM/Transformer for sign language sequence classification  
+- **API:** FastAPI microservice exposes inference & health endpoints  
+- **Experiment Tracking:** MLflow for reproducibility (params, metrics, artifacts)  
+- **Deployment:** Docker containerization, AWS ECS for scalable cloud inference  
+- **CI/CD:** GitHub Actions for automated testing, build, and deployment
 
----
-
-## 👩‍💻 About Me
-
-- 💡 I love building modern web apps with React, TypeScript, Python, and cloud platforms.
-- 🌱 Currently exploring deeper into full-stack development and cloud-native solutions.
-- 🗂️ I enjoy writing clean, maintainable code and learning new technologies.
-- 🤝 Open to collaboration and contributions!
+**Learnings:**  
+- Delivered sub-300ms inference for natural, real-time sign translation.
+- Built a modular, production-grade ML pipeline (from training to serving).
+- Automated experiment tracking, model registry, and versioned deployments.
+- Explored cloud-native, containerized MLops and practical API-first design.
 
 ---
 
-## 📫 Let’s Connect!
-
-- [LinkedIn](#) <!-- Add your LinkedIn URL -->
-- [Twitter](#)  <!-- Add your Twitter handle -->
-- Email: <!-- Add your email if you want -->
-
----
-
-_Thanks for stopping by! Check out my featured projects above and feel free to connect or collaborate!_
+_See each repo for architecture diagrams, setup instructions, and code!_
