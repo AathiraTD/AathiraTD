@@ -1,59 +1,79 @@
-# 🚀 Featured Projects
+# Hi there, I'm Aathira! 👋
+
+Welcome to my GitHub profile. I’m passionate about building impactful, user-centric applications and contributing to open-source projects. Here you’ll find a showcase of my work, with a focus on technical depth, modern tooling, and continuous learning.
 
 ---
+
+## 🚀 Featured Projects
 
 ### [Goal-Tracker](https://github.com/AathiraTD/Goal-Tracker)
 **A full-stack, open-source daily goal & habit tracker built with Next.js and Supabase.**
 
-**Technical Highlights:**  
+**Technical Aspects & Tooling:**  
 - **Frontend:** Next.js 15 App Router, React 19, Tailwind CSS 4  
-- **Backend & DB:** Supabase (auth, Postgres), tRPC for type-safe API, Zod validation  
-- **Tooling:** Turborepo, pnpm, Storybook 8, Playwright, Vitest  
-- **Features:** Real-time goal management, analytics dashboards, authentication, responsive and accessible UI
+- **Backend & Database:** Supabase (Postgres, Auth), tRPC for type-safe APIs, Zod for schema validation  
+- **Tooling:** Turborepo for monorepo management, pnpm workspaces, Storybook 8 for UI components, Playwright and Vitest for testing  
+- **Features:** Real-time goal management, tomorrow planner, analytics dashboard, secure authentication, responsive & accessible UI
 
-**Learnings:**  
-- Built a scalable, modern React app with advanced routing and SSR.
-- Integrated end-to-end type safety and validation across the stack.
-- Implemented modular UI with Storybook and robust e2e testing via Playwright.
-- Gained experience with cloud Postgres, CI/CD, and monorepo tooling.
+**Key Learnings:**  
+- Architected a scalable, type-safe, and maintainable full-stack application
+- Mastered monorepo workflows with advanced tooling
+- Enhanced developer experience with automated testing and Storybook-driven UI development
+- Improved cloud integration and user authentication strategies
 
 ---
 
 ### [realtime-market-data-pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)
 **Sub-hour insight for FTSE equities & FX rates – real-time data pipeline with Airflow, Snowflake, and Superset.**
 
-**Technical Highlights:**  
-- **Orchestration:** Apache Airflow (DAGs for data ingestion, transformation, alerting)  
-- **Data Warehouse:** Snowflake (fast transformation, auto-suspend for cost savings)  
-- **Visualization:** Apache Superset (automatic dashboard updates)  
-- **Alerting:** Slack webhooks for job/data failures  
-- **Containerization:** Docker & Docker Compose for local development and deployment
+**Technical Aspects & Tooling:**  
+- **Data Orchestration:** Apache Airflow for flexible, reliable DAG-based scheduling  
+- **Data Warehouse:** Snowflake for scalable, cost-efficient transformation and storage  
+- **Visualization:** Apache Superset for live dashboards and instant data visibility  
+- **Alerting & Monitoring:** Slack webhooks for proactive notifications  
+- **Containerization:** Docker & Docker Compose for reproducible local development and deployment
 
-**Learnings:**  
-- Built a robust, modular data pipeline ingesting and transforming 100k+ rows daily.
-- Optimized for low-latency, low-cost operation via auto-scaling and efficient scheduling.
-- Automated data QC and incident notification, reducing stale-data risk.
-- Designed for extensibility (new markets, cloud deployment, cost analytics) and reproducibility (pre-commit hooks, infra-as-code).
+**Key Learnings:**  
+- Built robust, modular pipelines ingesting and transforming large volumes of live financial data  
+- Achieved low latency and cost efficiency through orchestration and auto-scaling  
+- Automated data quality checks and incident alerts  
+- Designed for extensibility (new markets/data sources) and reproducibility using infra-as-code
 
 ---
 
 ### [SignGenie](https://github.com/AathiraTD/SignGenie)
 **Real-time sign language recognition using deep learning and MLOps.**
 
-**Technical Highlights:**  
-- **Detection & Vision:** YOLO-based hand/gesture detector, OpenCV for preprocessing  
-- **Sequence Modeling:** LSTM/Transformer for sign language sequence classification  
-- **API:** FastAPI microservice exposes inference & health endpoints  
-- **Experiment Tracking:** MLflow for reproducibility (params, metrics, artifacts)  
-- **Deployment:** Docker containerization, AWS ECS for scalable cloud inference  
-- **CI/CD:** GitHub Actions for automated testing, build, and deployment
+**Technical Aspects & Tooling:**  
+- **Computer Vision:** YOLO-based hand detection, OpenCV preprocessing  
+- **Sequence Modeling:** LSTM/Transformer networks for gesture-to-text translation  
+- **API:** FastAPI microservice for low-latency inference  
+- **Experiment Tracking:** MLflow for experiment management, model registry, and reproducibility  
+- **Deployment:** Dockerized, CI/CD via GitHub Actions, and scalable serving on AWS ECS
 
-**Learnings:**  
-- Delivered sub-300ms inference for natural, real-time sign translation.
-- Built a modular, production-grade ML pipeline (from training to serving).
-- Automated experiment tracking, model registry, and versioned deployments.
-- Explored cloud-native, containerized MLops and practical API-first design.
+**Key Learnings:**  
+- Delivered sub-300ms inference for real-time sign-to-text and text-to-speech  
+- Built a modular, production-grade ML pipeline with robust deployment and monitoring  
+- Automated ML experiment tracking and containerized deployment  
+- Developed scalable, API-first ML solutions with cloud-native infrastructure
 
 ---
 
-_See each repo for architecture diagrams, setup instructions, and code!_
+## 👩‍💻 About Me
+
+- 💡 I love building modern web apps and data-driven services with React, TypeScript, Python, and cloud platforms.
+- 🌱 Currently exploring deeper into full-stack development, data engineering, and cloud-native architectures.
+- 🗂️ I enjoy writing clean, maintainable code and am always learning new technologies.
+- 🤝 Open to collaboration and contributions!
+
+---
+
+## 📫 Let’s Connect!
+
+- [LinkedIn](#) <!-- Add your LinkedIn URL -->
+- [Twitter](#)  <!-- Add your Twitter handle -->
+- Email: <!-- Add your email if you want -->
+
+---
+
+_Thanks for stopping by! Check out my featured projects above and feel free to connect or collaborate!_
