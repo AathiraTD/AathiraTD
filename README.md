@@ -52,9 +52,8 @@
 
 ## 🤝 Connect
 
-* **LinkedIn:** *\[add link]*
-* **Twitter:**  *@handle*
-* **Email:**    *[you@example.com](mailto:you@example.com)*
+* **LinkedIn:** *\[www.linkedin.com/in/contactaathiratdev]*
+* **Email:**    *[aathiratdev31@gmail.com](mailto:aathiratdev31@gmail.com)*
 
 > *“Code is poetry — ship often, learn faster.”*
 
