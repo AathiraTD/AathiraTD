@@ -2,7 +2,7 @@
 
 # **Aathira T D**
 
-*Full‑stack & Data Engineer · Turning ideas into products*
+*AI & Data Engineer · Turning ideas into products*
 
 
 </div>
