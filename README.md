@@ -26,9 +26,9 @@
 
 |  Status  | Project                                                                                | What it does                              | Key Tech                       |
 | :------: | -------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------ |
-|  ✅  | **[Goal‑Tracker](https://github.com/AathiraTD/Goal-Tracker)**                          | Habits & goals, real‑time sync, analytics | Next.js 15 · Supabase · tRPC   |
-|  ✅  | **[Market Data Pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)** | <45 min FTSE/FX feed, live dashboards     | Airflow · Snowflake · Superset |
-|  ✅  | **[SignGenie](https://github.com/AathiraTD/SignGenie)**                                | Sign → text → speech in <300 ms           | YOLO · FastAPI · ECS           |
+|  ✅  | **[Goal‑Tracker](https://github.com/AathiraTD/Goal-Tracker)**                          | Habits & goals, real‑time sync, analytics | Next.js 15 · Supabase · tRPC   |
+|  ✅  | **[Market Data Pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)** | <45 min FTSE/FX feed, live dashboards     | Airflow · Snowflake · Superset |
+|  ✅  | **[SignGenie](https://github.com/AathiraTD/SignGenie)**                                | Sign → text → speech in <300 ms           | YOLO · FastAPI · ECS           |
 |  🔜  | **NeuroPulse**                                                                         | Neuroadaptive intervention for ADHD       | Kotlin · Jetpack Compose · LangChain4j · Wear OS · Python |
 |  🔜  | **PlanProof**                                                                          | Vision-language ML review automation      | Python · Qwen2.5-VL-3B · LoRA · React · Azure |
 
@@ -36,11 +36,11 @@
 
 ## 🛠️ Core Skills
 
-* **Frontend:** React 19, Next.js App Router, Tailwind CSS
-* **Backend:** FastAPI, tRPC, Node, Auth (Supabase / Clerk)
-* **Data Engineering:** Apache Airflow, dbt, Snowflake, Postgres
-* **MLOps:** PyTorch, ONNX, MLflow, NVIDIA TensorRT
-* **Dev Ex:** Turborepo, pnpm, GitHub Actions CI/CD
+* **Frontend:** React 19, Next.js App Router, Tailwind CSS
+* **Backend:** FastAPI, tRPC, Node, Supabase Auth
+* **Data Engineering:** Apache Airflow, dbt, Snowflake, Postgres
+* **MLOps:** PyTorch, ONNX, MLflow
+* **Dev Ex:** Turborepo, pnpm, GitHub Actions CI/CD
 
 ---
 
@@ -57,8 +57,8 @@
 * **LinkedIn:** *\[www.linkedin.com/in/contactaathiratdev]*
 * **Email:**    *[aathiratdev31@gmail.com](mailto:aathiratdev31@gmail.com)*
 
-> *“Code is poetry — ship often, learn faster.”*
+> *"Code is poetry — ship often, learn faster."*
 
 ---
 
-<p align="center"><sub>⭐ Stars & PRs are welcome. Let’s build together!</sub></p>
+<p align="center"><sub>⭐ Stars & PRs are welcome. Let's build together!</sub></p>
