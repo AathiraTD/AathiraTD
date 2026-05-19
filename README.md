@@ -2,7 +2,7 @@
 
 # **Aathira T D**
 
-*AI & Data Engineer · Turning ideas into products*
+*AI & ML Engineer · Turning ideas into products*
 
 
 </div>
