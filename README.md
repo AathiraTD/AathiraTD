@@ -24,11 +24,13 @@
 
 ## 🔍 Featured Repos
 
-|  ⭐  | Project                                                                                | What it does                              | Key Tech                       |
-| :-: | -------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------ |
-|  1  | **[Goal‑Tracker](https://github.com/AathiraTD/Goal-Tracker)**                          | Habits & goals, real‑time sync, analytics | Next.js 15 · Supabase · tRPC   |
-|  2  | **[Market Data Pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)** | <45 min FTSE/FX feed, live dashboards     | Airflow · Snowflake · Superset |
-|  3  | **[SignGenie](https://github.com/AathiraTD/SignGenie)**                                | Sign → text → speech in <300 ms           | YOLO · FastAPI · ECS           |
+|  Status  | Project                                                                                | What it does                              | Key Tech                       |
+| :------: | -------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------ |
+|  ✅  | **[Goal‑Tracker](https://github.com/AathiraTD/Goal-Tracker)**                          | Habits & goals, real‑time sync, analytics | Next.js 15 · Supabase · tRPC   |
+|  ✅  | **[Market Data Pipeline](https://github.com/AathiraTD/realtime-market-data-pipeline)** | <45 min FTSE/FX feed, live dashboards     | Airflow · Snowflake · Superset |
+|  ✅  | **[SignGenie](https://github.com/AathiraTD/SignGenie)**                                | Sign → text → speech in <300 ms           | YOLO · FastAPI · ECS           |
+|  🔜  | **NeuroPulse**                                                                         | Neuroadaptive intervention for ADHD       | Kotlin · Jetpack Compose · LangChain4j · Wear OS · Python |
+|  🔜  | **PlanProof**                                                                          | Vision-language ML review automation      | Python · Qwen2.5-VL-3B · LoRA · React · Azure |
 
 ---
 
