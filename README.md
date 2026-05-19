@@ -34,7 +34,7 @@
 
 ---
 
-## 🛠️ Core Skills
+## 🛠️ Tools & Tech
 
 * **Frontend:** React 19, Next.js App Router, Tailwind CSS
 * **Backend:** FastAPI, tRPC, Node, Supabase Auth
